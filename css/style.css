@@ -1,0 +1,686 @@
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 13px;
+    color: #5f6368;
+    
+}
+
+header {
+    height: 123px;
+    border-bottom: 1px solid #dbd9d9;
+}
+
+.image-container img {
+    height: 30px;
+    width: 92px;
+}
+
+.top-search {
+    height: 65px;
+}
+
+
+.image-container {
+    display: inline-block;
+    padding: 4px 31px 0 30px;
+    position: relative;
+    top: 24px;
+    right: 10px;
+}
+
+.input-container {
+    display: inline-block;
+    height: 46px;
+    width: 640px;
+    position: relative;
+    top: 14px;
+    right: 12px;
+}
+
+.menu-icon img {
+    height: 16px;
+    width: 16px;
+    float: right;
+    position: relative;
+    bottom: 16px;
+    right: 99px;
+}
+
+.profile-icon img {
+    height: 32px;
+    width: 32px;
+    float: right;
+    position: relative;
+    bottom: 24px;
+    right: 27px;
+}
+
+.searchbar {
+    height: 46px;
+    width: 640px;
+    border-radius: 27px;
+    outline: 0;
+    border: solid #dbd9d9 1px;
+    padding-left: 21px;
+    font-size: 16px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+
+.bottom-search {
+    height: 58px;
+}
+
+.mic-position {
+    height: 21px;
+    width: 14px;
+    position: absolute;
+    top: 33px;
+    left: 710px;
+}
+
+.glass-position {
+    height: 19px;
+    width: 16px;
+    position: absolute;
+    top: 33px;
+    left: 744px;
+}
+
+nav div img {
+    height: 16px;
+    width: 16px; 
+}
+
+.bottom-search div {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 158px;
+}
+
+.nav-one {
+    height: 47px;
+    width: 58px; 
+    padding: 16px 12px 12px 10px;
+    border-bottom: blue solid 3px;
+}
+
+.nav-two {
+    height: 45px;
+    width: 76px; 
+    padding: 16px 12px 12px 10px;
+}
+
+.nav-three {
+    height: 45px;
+    width: 83px; 
+    padding: 16px 12px 12px 10px;
+}
+
+.nav-four {
+    height: 45px;
+    width: 75px; 
+    padding: 16px 12px 12px 10px;
+}
+
+.nav-five {
+    height: 45px;
+    width: 97px; 
+    padding: 16px 12px 12px 10px;
+}
+
+.nav-six {
+    height: 45px;
+    width: 68px; 
+    padding: 16px 12px 12px 6px;
+}
+
+
+
+nav div a {
+    position: relative;
+    bottom: 3px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+nav div a:hover {
+    color: blue;
+}
+
+#nav-seven {
+    height: 44px;
+    width: 69px; 
+    padding: 16px 12px 12px 10px;
+    position: relative;
+    top: 10px;
+    left: 190px;
+}
+
+#nav-eight {
+    height: 29px;
+    width: 56px; 
+    padding: 4px 11px;
+    position: relative;
+    top: 10px;
+    left: 190px;
+}
+
+.search-time {
+    height: 43px;
+    padding-left: 165px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.block-one {
+    padding-left: 165px;
+    padding-top: 6px;
+}
+
+.block-one h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-one a:hover {
+    text-decoration: underline;
+}
+
+.block-one cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-one p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-two {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-two h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-two a:hover {
+    text-decoration: underline;
+}
+
+.block-two cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-two p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-three {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-three h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-three a:hover {
+    text-decoration: underline;
+}
+
+.block-three cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-three p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.dropdown {
+    padding-left: 145px;
+    padding-top: 28px;
+    position: relative;
+    right: 1px;
+}
+
+.dropdown h2 {
+    border: 1px solid #dbd9d9;
+    height: 44px;
+    width: 638px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    color: #222;
+    padding-left: 15px;
+    padding-top: 12px;
+    
+}
+
+.dropdown-border {
+    display: block;
+    border: 1px solid #dbd9d9;
+    height: 44px;
+    width: 638px;
+    font-size: 16px;
+    color: #222;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+.dropdown-border-bottom-radius {
+    display: block;
+    border: 1px solid #dbd9d9;
+    height: 44px;
+    width: 638px;
+    font-size: 16px;
+    color: #222;
+    padding-left: 15px;
+    padding-top: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right-align {
+    display: block;
+    color: #70757a;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1.33;
+    padding-top: 6px;
+    padding-left: 573px;
+}
+
+.right-align:hover {
+    text-decoration: underline;
+}
+
+.arrow-one, .arrow-two, .arrow-three, .arrow-four {
+    height: 8px;
+    width: 13px;
+}
+
+.arrow-one {
+    position: relative;
+    left: 608px;
+    bottom: 183px;
+}
+
+.arrow-two {
+    position: relative;
+    left: 592px;
+    bottom: 139px;
+}
+
+.arrow-three {
+    position: relative;
+    left: 576px;
+    bottom: 95px;
+}
+
+.arrow-four {
+    position: relative;
+    left: 559px;
+    bottom: 51px;
+}
+
+.shift-up {
+    position: relative;
+    bottom: 15px;
+}
+
+.block-four {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-four h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-four a:hover {
+    text-decoration: underline;
+}
+
+.block-four cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-four p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-five {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-five h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-five a:hover {
+    text-decoration: underline;
+}
+
+.block-five cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-five p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-six {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-six h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-six a:hover {
+    text-decoration: underline;
+}
+
+.block-six cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-six p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-seven {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-seven h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-seven a:hover {
+    text-decoration: underline;
+}
+
+.block-seven cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-seven p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-eight {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-eight h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-eight a:hover {
+    text-decoration: underline;
+}
+
+.block-eight cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-eight p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-nine {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-nine h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-nine a:hover {
+    text-decoration: underline;
+}
+
+.block-nine cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-nine p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.block-ten {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.block-ten h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.block-ten a:hover {
+    text-decoration: underline;
+}
+
+.block-ten cite {
+    font-size: 16px;
+    color: #006621;
+    line-height: 1.5;
+}
+
+.block-ten p {
+    line-height: 1.50;
+    color: #545454;
+    font-size: 14px;
+}
+
+.related-searches {
+    padding-left: 165px;
+    padding-top: 28px;
+}
+
+.related-searches h3 {
+    color: #222;
+    font-size: 20px;
+
+}
+
+.rr-one, .rr-two, .rr-three {
+    color: #1a0dab;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.related-searches ul a:hover {
+    text-decoration: underline;
+}
+
+.rr-one {
+    padding-top: 28px;
+}
+
+.rr-two {
+    padding-top: 13px;
+}
+
+.rr-three {
+    padding-top: 13px;
+}
+
+.rr-one li {
+    display: inline-block;
+}
+
+.rr-two li {
+    display: inline-block;
+}
+
+.rr-three li {
+    display: inline-block;
+}
+
+.right-adjust-one {
+    padding-left: 85px;
+}
+
+.right-adjust-two {
+    padding-left: 83px;
+}
+
+.right-adjust-three {
+    padding-left: 33px;
+}
+
+.bottom-logo {
+    padding-left: 295px;
+    padding-top: 34px;
+}
+
+.bottom-logo img {
+    height: 40px;
+    width: 315px;
+}
+
+.bottom-numbers {
+    padding-left: 334px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 3px;
+    color: #4285f4;
+    font-size: 14px;
+}
+
+.bottom-numbers ul li {
+    display: inline-block;
+    padding-left: 9px;
+}
+
+.right-space {
+    padding-left: 43px!important;
+}
+
+.black-font {
+    color: rgba(0,0,0,0.87)!important;
+}
+
+.bottom-numbers ul a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    height: 65px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border-top: 1px solid #dbd9d9;
+}
+
+.top-footer {
+    padding-left: 165px;
+    padding-top: 5px;
+
+}
+
+.location {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.based {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.top-footer a {
+    color: #5f6368;
+}
+
+.top-footer a:hover {
+    font-weight: bold;
+}
+
+.bottom-footer {
+    padding-top: 20px;
+    padding-left: 138px;
+}
+
+.bottom-footer ul li {
+    display: inline-block;
+    padding-left: 27px;
+}
+
+.bottom-footer ul a {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.bottom-footer ul a:hover {
+    font-weight: bold;
+}
